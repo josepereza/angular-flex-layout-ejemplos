@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+.container-wrapper{
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid blue;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.row{
+    border: 1px solid red;
+    padding: 15px;
+}
+
+.col{
+    border: 1px solid green;
+    padding: 10px;
+}
