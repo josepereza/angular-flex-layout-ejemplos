@@ -112,34 +112,15 @@
   </div>
   <br>
 
-  <div class="row" fxLayout="row wrap" fxLayout.lt-md="column" fxLayoutGap="1%" fxLayoutAlign="start">
-    <div class="col" fxFlex="49%" fxFlex.ld-md="100%">
+  <div fxLayout="row wrap" fxLayout.lt-md="column" fxLayoutGap="1%" fxLayoutGap.md="2%" fxLayoutAlign="start">
+    <div fxFlex="48%" fxFlex.ld-md="100%">
       <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="2%">
-        <div fxFlex="100%">
-          <div fxLayout="row" fxLayout.lt-lg="column" fxLayoutAlign="start" fxLayoutGap="1%">
-            <div fxFlex="20%">
-              <label for="firstName">First Name:</label>
-            </div>
-            <div fxFlex="79%">
-              <input type="text" name="firstName" placeholder="first name here:" style="width:100%;">
-            </div>
-          </div>
-        </div>
-
-        <div fxFlex="100%">
-          <div fxLayout="row" fxLayout.lt-lg="column" fxLayoutAlign="start" fxLayoutGap="1%">
-            <div fxFlex="20%">
-              <label for="lastName">Last Name:</label>
-            </div>
-            <div fxFlex="79%">
-              <input type="text" name="lastName" placeholder="last name here:" style="width:100%;">
-            </div>
-          </div>
-        </div>
+        <app-input [labelName]="'First Name'" [name]="'firstName'" [placeholder]="'First name here:'" [type]="'text'"></app-input>
+        <app-input [labelName]="'Last Name'" [name]="'lastName'" [placeholder]="'Last name here:'" [type]="'text'"></app-input>
       </div>
     </div>
 
-    <div class="col" fxFlex="49%" fxFlex.ld-md="100%">
+    <div fxFlex="48%" fxFlex.ld-md="100%">
       <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="2%">
         <app-input [labelName]="'Email'" [name]="'email'" [placeholder]="'Email here:'" [type]="'email'"></app-input>
         <app-input [labelName]="'Address'" [name]="'address'" [placeholder]="'Address here:'" [type]="'text'"></app-input>

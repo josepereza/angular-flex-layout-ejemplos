@@ -1,10 +1,10 @@
 <div fxFlex="100%">
-  <div fxLayout="row" fxLayout.lt-lg="column" fxLayoutAlign="start" fxLayoutGap="1%">
-    <div fxFlex="20%">
+  <div fxLayout="row" fxLayout.lt-lg="column" fxLayoutAlign="start" fxLayoutGap="5%" fxLayoutGap.lt-lg="1%">
+    <div fxFlex="20%" fxFlexAlign.lt-lg="start" class="control-label">
       <label for='name'>{{labelName}}:</label>
     </div>
-    <div fxFlex="79%">
-      <input [type]='type' [name]='name' [placeholder]='placeholder' style="width:100%;">
+    <div fxFlex="70%">
+      <input [type]='type' [name]='name' [placeholder]='placeholder' class="form-control">
     </div>
   </div>
 </div>
