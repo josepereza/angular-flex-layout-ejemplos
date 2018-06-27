@@ -2,19 +2,24 @@
 .container-wrapper{
     max-width: 80%;
     margin: auto;
-    border: 1px solid blue;
+    border: 2px solid #b6c2e2;
     padding: 10px;
     margin-bottom: 15px;
+    box-shadow: 1px 1px 1px #8486a0;
 }
 
 .row{
-    border: 1px solid red;
+    border: 2px solid #c4cac8;
     padding: 15px;
+    box-shadow: 1px 1px 1px gray;
 }
 
 .col{
-    border: 1px solid green;
-    padding: 10px;
+    border: 1px solid #3e99a0;
+    padding: 30px;
+    background-color: #33b0bb;
+    color: white;
+    font-weight: bold;
 }
 
 .form-control {
