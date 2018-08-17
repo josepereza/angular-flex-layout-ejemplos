@@ -21,12 +21,10 @@
 
   <!--fxLayout deca su u jednom redu ali i sa tekstom koji se wrapuje-->
   <div fxLayout="row wrap" class="row">
-    <div class="col">1. Lorem ipsum dolor sit amet, ad nec dicunt eirmod, sea no everti delicatissimi. Ullum debet omnesque no est. Ei noluisse
-      electram interpretaris eum, sint dolor philosophia nam et. Ne habeo alterum albucius usu, eos iudico iisque an, per
-      platonem persequeris in. Ei pro choro disputando dissentiunt.</div>
-    <div class="col">2. Two</div>
-    <div class="col">3. Three</div>
-    <div class="col">4. Four</div>
+    <div class="col">Lorem ipsum dolor sit amet, ad nec dicunt eirmod</div>
+    <div class="col">Lorem ipsum dolor sit amet, ad nec dicunt eirmod</div>
+    <div class="col">Lorem ipsum dolor sit amet, ad nec dicunt eirmod</div>
+    <div class="col">Lorem ipsum dolor sit amet, ad nec dicunt eirmod</div>
   </div>
   <br>
 
@@ -111,20 +109,17 @@
     <div fxFlex="15%" fxFlexOffset="10px" class="col">Item 2</div>
   </div>
   <br>
-
-  <div fxLayout="row wrap" fxLayout.lt-md="column" fxLayoutGap="1%" fxLayoutGap.md="2%" fxLayoutAlign="start">
-    <div fxFlex="48%" fxFlex.ld-md="100%">
-      <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="2%">
-        <app-input [labelName]="'First Name'" [name]="'firstName'" [placeholder]="'First name here:'" [type]="'text'"></app-input>
-        <app-input [labelName]="'Last Name'" [name]="'lastName'" [placeholder]="'Last name here:'" [type]="'text'"></app-input>
-      </div>
+</div>
+<div class="container-wrapper">
+  <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="1%" fxLayoutGap.md="2%" fxLayoutAlign="start">
+    <div fxFlex="48%" fxFlex.ld-md="100%" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="2%">
+      <app-input [labelName]="'First Name'" [name]="'firstName'" [placeholder]="'First name here:'" [type]="'text'"></app-input>
+      <app-input [labelName]="'Last Name'" [name]="'lastName'" [placeholder]="'Last name here:'" [type]="'text'"></app-input>
     </div>
 
-    <div fxFlex="48%" fxFlex.ld-md="100%">
-      <div fxLayout="column" fxLayoutAlign="start" fxLayoutGap="2%">
-        <app-input [labelName]="'Email'" [name]="'email'" [placeholder]="'Email here:'" [type]="'email'"></app-input>
-        <app-input [labelName]="'Address'" [name]="'address'" [placeholder]="'Address here:'" [type]="'text'"></app-input>
-      </div>
+    <div fxFlex="48%" fxFlex.ld-md="100%" fxLayout="column" fxLayoutAlign="start" fxLayoutGap="2%">
+      <app-input [labelName]="'Email'" [name]="'email'" [placeholder]="'Email here:'" [type]="'email'"></app-input>
+      <app-input [labelName]="'Address'" [name]="'address'" [placeholder]="'Address here:'" [type]="'text'"></app-input>
     </div>
   </div>
 </div>

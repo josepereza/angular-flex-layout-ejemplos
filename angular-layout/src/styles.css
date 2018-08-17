@@ -24,7 +24,7 @@
 
 .form-control {
     width: 95%;
-    height: 30px;
+    height: 38px;
     padding: 3px 15px;
     background-color: #fff;
     background-image: none;
@@ -36,7 +36,7 @@
 }
 
 .control-label {
-    padding-top: 7px;
+    padding-top: 9px;
     margin-bottom: 0;
     text-align: right;
     font-weight: bold;
